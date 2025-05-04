@@ -218,7 +218,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="mb-4 relative">
                   <img 
@@ -259,6 +259,20 @@ const About = () => {
                 <p className="text-construct-600">Chief Product Officer</p>
                 <p className="text-gray-600 mt-2">
                   Product strategist with a background in developing solutions for the construction industry.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="mb-4">
+                  <img 
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" 
+                    alt="COO" 
+                    className="rounded-full w-32 h-32 object-cover mx-auto"
+                  />
+                </div>
+                <h3 className="text-xl font-bold">Jennifer Lee</h3>
+                <p className="text-construct-600">Chief Operations Officer</p>
+                <p className="text-gray-600 mt-2">
+                  Operations expert with experience scaling tech solutions in construction environments.
                 </p>
               </div>
             </div>
